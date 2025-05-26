@@ -11,3 +11,7 @@
     --color-bluebutton:#3639A4;
     
 }
+
+.slick-list,.slick-track{
+    border-radius: 20px !important;
+}

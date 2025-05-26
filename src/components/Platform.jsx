@@ -32,10 +32,10 @@ const Platform = () => {
                         </div>
                 <div className='pt-[116px] flex gap-[200px] '>
                    {
-                    cards.map(card =>(
+                    cards.map((card,idx) =>(
                         
                       
-                               <div className='flex  flex-col '>
+                               <div key={idx} className='flex  flex-col '>
                             <img className=' mx-auto  w-[104px]' src={card.img} alt="" />
                             <h1 className='pt-6 pb-4 text-2xl text-header font-black'>{card.title}</h1>
                             <p className=' text-lg'>{card.description}</p>

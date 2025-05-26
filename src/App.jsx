@@ -6,8 +6,9 @@ import Navbar from "./components/Navbar";
 import Platform from "./components/Platform";
 import Workpart from "./components/Workpart";
 import Reviewpart from "./components/Reviewpart"
-import Reviewpartimg from "./components/Reviewpartimg";
 import PricingPart from "./components/PricingPart";
+import Aboutus from "./components/Aboutus";
+import Footer from "./components/Footer";
 
 
 
@@ -27,6 +28,8 @@ const App = () => {
        
             <Reviewpart></Reviewpart>
             <PricingPart></PricingPart>
+            <Aboutus></Aboutus>
+            <Footer></Footer>
       
      
        
