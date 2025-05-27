@@ -1,12 +1,7 @@
 
-
-
-
-
-
-const Bannerimg = ({children}) => {
+const BannerImg = ({children}) => {
     return (
-        <div className=' bg-cover bg-center bg-[url(./assets/BgShape.png)]  h-[1240px]'>
+        <div className=' bg-cover bg-center bg-[url(./assets/BgShape.png)]  md:h-[1240px]'>
 
     
             {children}
@@ -15,4 +10,4 @@ const Bannerimg = ({children}) => {
     );
 };
 
-export default Bannerimg; 
+export default BannerImg; 

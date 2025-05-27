@@ -6,14 +6,14 @@ const PricingPart = () => {
         <div>
             <Container>
                 <div className='text-center'>
-                    <h1 className='text-[44px] mx-auto text-center font-chivo font-bold w-[624px]'>Pricing Designed To Fit Your Business</h1>
-                    <p className='font-bold text-2xl text-[#3639A4] pb-[77px]'>Monthly</p>
+                    <h1 className='text-3xl mt-8  md:mt-[140px] md:text-[44px] mx-auto text-center font-chivo font-bold w-auto md:w-[624px]'>Pricing Designed To Fit Your Business</h1>
+                    <p className='font-bold text-2xl text-[#3639A4] pb-10 md:pb-[77px]'>Monthly</p>
                 </div>
 
                 {/*  */}
 
-<div className='grid grid-cols-3 gap-[30px]'>
-<div className="group rounded-2xl hover:bg-bluebutton w-[450px] px-15 py-10 shadow-2xl">
+<div className='grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-[30px] px-3 md:px-0'>
+<div className="group rounded-2xl hover:bg-bluebutton w-auto md:w-[450px] px-15 py-10 shadow-2xl">
   <div className="group-hover:text-white ">
     {/* image image image */}
        <div className='text-center '>
@@ -76,7 +76,7 @@ const PricingPart = () => {
     </div>
   </div>
 </div>
-<div className="group rounded-2xl hover:bg-bluebutton w-[450px] px-15 py-10 shadow-2xl">
+<div className="group rounded-2xl hover:bg-bluebutton w-auto md:w-[450px] px-15 py-10 shadow-2xl">
   <div className="group-hover:text-white ">
     {/* image image image */}
        <div className='text-center '>
@@ -139,7 +139,7 @@ const PricingPart = () => {
     </div>
   </div>
 </div>
-<div className="group rounded-2xl hover:bg-bluebutton w-[450px] px-15 py-10 shadow-2xl">
+<div className="group rounded-2xl hover:bg-bluebutton w-auto md:w-[450px] px-15 py-10 shadow-2xl">
   <div className="group-hover:text-white ">
     {/* image image image */}
        <div className='text-center '>

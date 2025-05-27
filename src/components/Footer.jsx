@@ -9,12 +9,12 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div>
+        <div className='px-3'>
             <Container>
-                <div className='h-[316px] bg-cover bg-center bg-no-repeat bg-[url(./assets/CTA.png)]'>
-                <div className='p-24 flex items-center  justify-between'>
-                    <h1 className='w-[557px]  text-[44px] font-bold font-chivo leading-[56px] text-white'>Don’t find the answer? contact us for any query.</h1>
-                  <button className='py-5 px-12 text-lg  font-medium bg-[#43E7DF] text-white rounded-[6px]  '>Register</button>
+                <div className='rounded-2xl md:rounded-0 w-auto px-3 md:px-0 md:h-[316px] bg-cover bg-center bg-no-repeat bg-[url(./assets/CTA.png)]'>
+                <div className='md:p-24 md:flex items-center  justify-between'>
+                    <h1 className='md:w-[557px]  text-3xl md:text-[44px] font-bold font-chivo leading-[56px] text-white'>Don’t find the answer? contact us for any query.</h1>
+                 <div className='pb-2 '> <button className='py-2 md:py-5 px-8 md:px-12 text-lg  font-medium bg-[#43E7DF] text-white rounded-[6px]  '>Register</button></div>
                 </div>
                 </div>
 
@@ -24,14 +24,14 @@ const Footer = () => {
 
                 {/*==========footer part footer part ====== */}
 
-                <section className='pt-[124px]'>
+                <section className=' md:pt-[124px]'>
 
  
  
                     <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
 
     <nav>
-  <img className='w-[111px] text-header' src={Logofooter} alt="" />
+  <img className='md:w-[111px] text-header' src={Logofooter} alt="" />
   <p className='py-6 text-base text-para font-chivo w-[263px]'>Build a modern and creative website with Innovate.</p>
   <div className='flex items-center justify-center gap-2'>
     <a href="https://www.google.com"><SiGoogle /></a>
@@ -85,7 +85,7 @@ const Footer = () => {
 
 <div className='border-[#D2D2D2] mt-20 mb-6  border-b border-2  '></div>
 
-<p className='pt-[24px]  pb-[30px] text-base text-para font-dmsans'>© 2024 Innovate - All Right Reserved</p>
+<p className='md:pt-[24px] text-center md:text-start  pb-[30px] text-base text-para font-dmsans'>© 2024 Innovate - All Right Reserved</p>
  
                 </section>
             </Container>

@@ -26,19 +26,19 @@ const Platform = () => {
         <div>
             <Container>
                <div className='pt-[260px]'>
-                 <div className='flex justify-between'>
-                        <h1 className='w-[504px]  text-5xl font-bold font-chivo text-header'>How simple is it to use our platform?</h1>
-                        <p className='font-dmsans text-lg text-[#645E76] w-[530px]'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
+                 <div className='md:flex justify-between px-3 md:px-0 '>
+                        <h1 className='w-auto md:w-[504px] text-4xl  md:text-5xl font-bold font-chivo text-header'>How simple is it to use our platform?</h1>
+                        <p className='font-dmsans text-base  md:text-lg text-[#645E76] w-auto md:w-[530px] py-5 md:py-5'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
                         </div>
-                <div className='pt-[116px] flex gap-[200px] '>
+                <div className='pt-2 px-3 md:px-0 md:pt-[116px] md:flex gap-[200px] '>
                    {
                     cards.map((card,idx) =>(
                         
                       
-                               <div key={idx} className='flex  flex-col '>
+                               <div key={idx} className='md:flex  flex-col '>
                             <img className=' mx-auto  w-[104px]' src={card.img} alt="" />
-                            <h1 className='pt-6 pb-4 text-2xl text-header font-black'>{card.title}</h1>
-                            <p className=' text-lg'>{card.description}</p>
+                            <h1 className='pt-6 pb-4 md:text-2xl text-header font-black'>{card.title}</h1>
+                            <p className='text-base md:text-lg'>{card.description}</p>
                         </div>
                         
                       

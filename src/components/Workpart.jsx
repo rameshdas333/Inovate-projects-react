@@ -1,16 +1,15 @@
 import React from 'react';
 import Container from './Container';
-import vectorimg from '../assets/Vector (8).png'
 import { HiArrowSmRight } from "react-icons/hi";
 
 const Workpart = () => {
     return (
-        <div className='py-[140px]'>
+        <div className='md:py-[140px] mt-8  px-3 md:px-0'>
             <Container>
                 <div>
-                    <p></p>
-                    <h1 className='text-header font font-bold font-chivo  text-5xl'></h1>
-                    <div className='grid    grid-cols-4 gap-8  '>
+                    <p className='text-xl text-center font-medium font-dmsans text-[#FF7364]'>Our Services</p>
+                    <h1 className='text-header text-center font-bold font-chivo text-3xl md:text-5xl pb-10 md:pb-20 '>How It Works</h1>
+                    <div className='grid grid-cols-1   md:grid-cols-4 gap-8  '>
             <div className='group hover:bg-bluebutton   p-9 rounded-2xl shadow '>
                             {/* icon */}
 <div className='bg-[#E8F2FA] group-hover:text-white flex items-center justify-center  rounded-full w-[92px] h-[92px]'>
@@ -47,7 +46,7 @@ const Workpart = () => {
                             <button className='flex items-center justify-center text-bluebutton  group-hover:text-white '>Read more < HiArrowSmRight className='text-2xl' /> </button>
 
                         </div>
-            <div className='group hover:bg-bluebutton   p-9 rounded-2xl shadow '>
+            <div className='group mb-4 md:mb-0 hover:bg-bluebutton    p-9 rounded-2xl shadow '>
                             {/* icon */}
 <div className='bg-[#E8F2FA] group-hover:text-white flex items-center justify-center  rounded-full w-[92px] h-[92px]'>
 <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">

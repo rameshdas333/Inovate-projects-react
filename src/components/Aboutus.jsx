@@ -1,24 +1,26 @@
 import React from 'react';
 import Container from './Container';
 import { FaStar } from "react-icons/fa6";
-import AboutusSlider from './AboutusSlider';
+import AboutusSlider from './AboutUsSlider';
 
 
-const Aboutus = () => {
+const AboutUs = () => {
 
 
 
     return (
        
-        <div className='mt-40   h-[880px] bg-[#F4FAFA]'>
+        <div className='md:mt-40  md:h-[880px] bg-[#F4FAFA]'>
             
             <Container>
-              <div className=' flex justify-center gap-[109px] items-center'>
+              <div className=' px-3 md:px-0 md:flex justify-center md:gap-[109px] items-center'>
                   <div className=''>
-                    <h1 className='pt-[204px] pb-[5px] w-[594px] text-header font-bold text-[46px] font-chivo'>What they are talking about us?</h1>
-                    <p className='pb-10 w-[503px] text-lg text-para font-dmsans'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
-                    <button className=' px-12 py-5 text-white rounded-[6px] bg-bluebutton mb-20' >Get Started</button>
-<div className='flex gap-8 items-center'>
+                    <h1 className='md:pt-[204px] pb-[5px] md:w-[594px] text-header font-bold text-3xl md:text-[46px] font-chivo'>What they are talking about us?</h1>
+                    <p className='md:pb-10 w-auto md:w-[503px] text-base md:text-lg text-para font-dmsans'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+                   <div className='py-4'>
+                     <button className=' px-12 py-5 text-white rounded-[6px] bg-bluebutton  md:mb-20' >Get Started</button>
+                   </div>
+<div className='md:flex gap-8 items-center'>
 
   <div className="flex  space-x-[-15px]">
     <div className="w-12 h-12 bg-gray-300 border-[2px] border-amber-50 rounded-full"></div>
@@ -51,7 +53,8 @@ const Aboutus = () => {
                                                       
                 <AboutusSlider></AboutusSlider>
                
-              
+                       
+
                 {/*  */}
                 
               
@@ -62,4 +65,4 @@ const Aboutus = () => {
     );
 };
 
-export default Aboutus;
+export default AboutUs;

@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa6";
 
 
 
-const AboutusSlider = () => {
+const AboutUsSlider = () => {
 
 
     var settings = {
@@ -18,14 +18,14 @@ const AboutusSlider = () => {
     arrows:false,
   };
     return (
-        <div className=' pt-[227px] w-full max-w-[687px]  '>
+        <div className=' md:pt-[227px] w-full md:max-w-[687px]  '>
               
              <Slider {...settings}>
             
      
-        <div className='  rounded-[20px]  px-15 py-12 w-[687px]  bg-white shadow-md '>
-                  <div className=' top-[-50px]  border-2 border-[#f1ebeb] bg-[#C4C4C4] w-[124px] h-[124px] rounded-full'></div>
-                  <p  className='text-2xl text-para w-[567px] pb-[37px] leading-[44px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+        <div className='  rounded-[20px]  px-15 py-12 w-auto md:w-[687px]  bg-white shadow-md '>
+                  <div className=' md:top-[-50px]  border-2 border-[#f1ebeb] bg-[#C4C4C4] md:w-[124px] md:h-[124px] rounded-full'></div>
+                  <p  className=' md:text-2xl text-para md:w-[567px] pb-[37px] leading-[44px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                   <h3 className='text-2xl font-bold font-chivo pb-2'>Robert Fox</h3>
                   <div className='flex justify-between'>
                     <p className='text-base'>Digital Marketer</p>
@@ -38,9 +38,9 @@ const AboutusSlider = () => {
                     </p>
                   </div>
           </div>
-        <div className=' rounded-[20px]  px-15 py-12 w-[687px]  bg-white shadow-md '>
-                  <div className=' top-[-50px]  border-2 border-[#f1ebeb] bg-[#C4C4C4] w-[124px] h-[124px] rounded-full'></div>
-                  <p  className='text-2xl text-para w-[567px] pb-[37px] leading-[44px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+         <div className='  rounded-[20px]  px-15 py-12 w-auto md:w-[687px]  bg-white shadow-md '>
+                  <div className=' md:top-[-50px]  border-2 border-[#f1ebeb] bg-[#C4C4C4] md:w-[124px] md:h-[124px] rounded-full'></div>
+                  <p  className=' md:text-2xl text-para md:w-[567px] pb-[37px] leading-[44px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                   <h3 className='text-2xl font-bold font-chivo pb-2'>Robert Fox</h3>
                   <div className='flex justify-between'>
                     <p className='text-base'>Digital Marketer</p>
@@ -67,4 +67,4 @@ const AboutusSlider = () => {
     );
 };
 
-export default AboutusSlider;
+export default AboutUsSlider;

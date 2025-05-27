@@ -1,16 +1,16 @@
 import React from 'react';
-import customerimg from '../assets/customerimg.png'
 import Container from './Container';
+import customerImage from '../assets/customerImg.png'
 
-const Reviewpartimg = ({children}) => {
+const ReviewpartImg = ({children}) => {
     return (
         <div>
            <Container>
-             <img src={customerimg} alt="" />
+             <img src={customerImage} alt="" />
             {children}
            </Container>
         </div>
     );
 };
 
-export default Reviewpartimg;
+export default ReviewpartImg;

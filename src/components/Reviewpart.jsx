@@ -5,32 +5,34 @@ import Container from './Container';
 
 
 
-const Reviewpart = () => {
+const ReviewPart = () => {
     return (
         <div className=' ' >
         
-             <Container>
+             <Container >
              
-            <div className='bg-cover bg-center bg-[url(./assets/customerimg.png)] flex justify-between rounded-2xl'>
+           <div className='px-3 md:px-0'>
+             <div className='w-auto md:w-[1410px] md:h-[468px] bg-cover bg-center bg-[url(./assets/customerImg.png)] flex justify-between rounded-2xl p-4 '>
                 <div></div>
                 <div className=''>
-                    <h1 className='pt-[85px] pb-[64px] w-[554px] text-[44px] font-bold text-white'>Trusted by 35,000+ happy customers.</h1>
-                     <div className='flex justify-between gap-3'>
+                    <h1 className='md:pt-[85px] md:pb-[64px] md:w-[554px] text-3xl  md:text-[44px] font-bold text-white'>Trusted by 35,000+ happy customers.</h1>
+                     <div className='md:flex justify-between  md:gap-3'>
                         <div className=''>
-                            <h1 className='text-white text-[44px] font-white font-chivo'>720+</h1>
-                            <p className='pb-[85px]  w-[176px] text-lg font-dmsans text-white'>Over 500 business powered with us</p>
+                            <h1 className='text-white text-3xl pt-4 md:text-[44px] font-white font-chivo'>720+</h1>
+                            <p className='md:pt-[85px] md:pb-[64px] text-lg font-dmsans text-white'>Over 500 business powered with us</p>
                         </div>
                         <div>
-                            <h1 className='text-white text-[44px] font-white font-chivo'>4.9</h1>
-                            <p className='pb-[85px]  w-[176px] text-lg font-dmsans text-white'>Rating on google play and app store</p>
+                            <h1 className='text-white text-3xl md:text-[44px]  font-white font-chivo'>4.9</h1>
+                            <p className='md:pb-[85px]  md:w-[176px] text-lg font-dmsans text-white'>Rating on google play and app store</p>
                         </div>
-                        <div className='pr-[70px]'>
-                             <h1 className='text-white text-[44px] font-white font-chivo'>200+</h1>
-                            <p className='pb-[85px]   w-[176px] text-lg font-dmsans text-white'>Easily integrate with your favorite apps</p>
+                        <div className='md:pr-[70px]'>
+                             <h1 className='text-white text-3xl md:text-[44px]  font-white font-chivo'>200+</h1>
+                            <p className=' md:pt-[85px] md:pb-[64px] text-lg font-dmsans text-white'>Easily integrate with your favorite apps</p>
                         </div>
                      </div>
                 </div>
               </div>
+           </div>
                 
 
               
@@ -44,4 +46,4 @@ const Reviewpart = () => {
     );
 };
 
-export default Reviewpart;
+export default ReviewPart;
