@@ -12,7 +12,7 @@ const ReviewPart = () => {
              <Container >
              
            <div className='px-3 md:px-0'>
-             <div className='w-auto md:w-[1410px] md:h-[468px] bg-cover bg-center bg-[url(./assets/customerImg.png)] flex justify-between rounded-2xl p-4 '>
+             <div className=' w-full h-[468px] bg-cover bg-center bg-[url(./assets/customerImg.png)] flex justify-between rounded-2xl p-4 '>
                 <div></div>
                 <div className=''>
                     <h1 className='md:pt-[85px] md:pb-[64px] md:w-[554px] text-3xl  md:text-[44px] font-bold text-white'>Trusted by 35,000+ happy customers.</h1>
