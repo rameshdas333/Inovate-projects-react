@@ -2,6 +2,7 @@
 @plugin "daisyui";
 @import "tailwindcss";
 
+
 @theme{
     --font-dmsans:"DM Sans", sans-serif;
     --font-chivo: "Chivo", sans-serif;
@@ -14,12 +15,38 @@
 
 .slick-list{
     border-radius: 20px !important;
+   
 }
 .slick-track{
-    padding: 100px;
+    padding: 80px !important;
 
 }
 
+
+/* .slick-initialized .slick-slide {
+	display: flex;
+    flex-direction: column !important;
+	padding: 20px !important ;
+   
+    
+	
+}*/
+/* .slick-slide {
+	 display: none; 
+	
+    width: 300px !important;
+	
+
+}  */
+
+/* In App.css */
+
+/* .slick-slide div{
+  background: #ddd;
+  padding: 40px;
+  text-align: center;
+  font-size: 1.5em;
+} */
 
 
 

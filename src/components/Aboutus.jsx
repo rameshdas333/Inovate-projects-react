@@ -1,7 +1,9 @@
-import React from 'react';
+
 import Container from './Container';
 import { FaStar } from "react-icons/fa6";
-import AboutusSlider from './AboutUsSlider';
+import AboutUsSlider from './AboutUsSlider';
+
+
 
 
 const AboutUs = () => {
@@ -10,13 +12,13 @@ const AboutUs = () => {
 
     return (
        
-        <div className='md:mt-40  md:h-[880px] bg-[#F4FAFA]'>
+        <div className='mt-40  bg-[#F4FAFA]'>
             
             <Container>
-              <div className=' px-3 md:px-0 md:flex justify-center md:gap-[109px] items-center'>
-                  <div className=''>
-                    <h1 className='md:pt-[204px] pb-[5px] md:w-[594px] text-header font-bold text-3xl md:text-[46px] font-chivo'>What they are talking about us?</h1>
-                    <p className='md:pb-10 w-auto md:w-[503px] text-base md:text-lg text-para font-dmsans'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+              <div className='  flex py-40 justify-between  items-center'>
+                  <div className='w-1/2'>
+                    <h1 className=' pb-[5px] w-[594px]  text-header font-bold text-3xl md:text-[46px] font-chivo'>What they are talking about us?</h1>
+                    <p className='pb-10 w-[503px] text-base md:text-lg text-para font-dmsans'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
                    <div className='py-4'>
                      <button className=' px-12 py-5 text-white rounded-[6px] bg-bluebutton  md:mb-20' >Get Started</button>
                    </div>
@@ -43,22 +45,29 @@ const AboutUs = () => {
     </div>
     <p className='text-lg font-dmsans font-medium'>280k Total Review</p>
    </div>
-    
-
-  
                   </div>              
                 </div>
 
-                {/* about slider  */}
-                                                      
-                <AboutusSlider></AboutusSlider>
-               
-                       
+            
 
-                {/*  */}
-                
-              
-                {/*  */}
+           {/*  */}
+
+           {/* <div className='relative px-15 py-12 rounded-[20px] drop-shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] bg-white'>
+            <div className=' absolute -top-[80px] rounded-full bg-amber-400 w-[124px]  h-[124px]'></div>
+            <p className='text-[22px] pb-[37px] font-dmsans text-para leading-[44px]  w-[667px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+            <p className='text-2xl font-chivo font-bold leading-[36px] text-header'>Robert Fox</p>
+            <div>
+              <div className='text-base font-dmsans '>Digital Marketer</div>
+              <div></div>
+            </div>
+           </div> */}
+
+           <div className='w-1/2'>
+            <AboutUsSlider></AboutUsSlider>
+           </div>
+
+               
+       
               </div>
             </Container>
         </div>

@@ -9,6 +9,7 @@ import PricingPart from "./components/PricingPart";
 import Aboutus from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import AboutUsSlider from "./components/AboutUsSlider";
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
             <Reviewpart></Reviewpart> 
             <PricingPart></PricingPart>
             <Aboutus></Aboutus>
+         
             <Footer></Footer>
       
      
