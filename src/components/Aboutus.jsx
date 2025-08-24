@@ -15,8 +15,8 @@ const AboutUs = () => {
         <div className='mt-40  bg-[#F4FAFA]'>
             
             <Container>
-              <div className='  flex py-40 justify-between  items-center'>
-                  <div className='w-1/2'>
+              <div className='  md:flex py-40  items-center'>
+                  <div className='md:w-1/2'>
                     <h1 className=' pb-[5px] w-[594px]  text-header font-bold text-3xl md:text-[46px] font-chivo'>What they are talking about us?</h1>
                     <p className='pb-10 w-[503px] text-base md:text-lg text-para font-dmsans'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
                    <div className='py-4'>
@@ -62,7 +62,7 @@ const AboutUs = () => {
             </div>
            </div> */}
 
-           <div className='w-1/2'>
+           <div className='md:w-1/2'>
             <AboutUsSlider></AboutUsSlider>
            </div>
 
