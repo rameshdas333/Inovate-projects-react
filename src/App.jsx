@@ -2,7 +2,7 @@ import Appspart from "./components/Appspart";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import BannerImg from "./components/BannerImg"
-import Platform from "./components/PlatForm";
+import PlatForm from "./components/PlatForm";
 import Workpart from "./components/WorkPart";
 import Reviewpart from "./components/ReviewPart"
 import PricingPart from "./components/PricingPart";
@@ -22,7 +22,7 @@ const App = () => {
       <Header></Header>
     </BannerImg>
 
-       <Platform></Platform>
+       <PlatForm></PlatForm>
        <Features></Features>
        <Appspart></Appspart>
        <Workpart></Workpart>
