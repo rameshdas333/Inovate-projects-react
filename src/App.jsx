@@ -1,4 +1,4 @@
-import Appspart from "./components/AppSpart";
+import Appspart from "./components/Appspart";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import BannerImg from "./components/BannerImg"
@@ -9,7 +9,6 @@ import PricingPart from "./components/PricingPart";
 import Aboutus from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import AboutUsSlider from "./components/AboutUsSlider";
 
 
 

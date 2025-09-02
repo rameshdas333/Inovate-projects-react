@@ -35,7 +35,7 @@ const Navbar = () => {
               <FaBars className=' text-2xl text-white md:hidden'/></button>
            </div>
            <div className=''>
-           <ul className=' font-bold hidden  md:flex gap-12 font-dmsans text-white '>
+           <ul className=' font-bold hidden hover:text-blue-500   md:flex gap-12 font-dmsans text-black '>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Service</a></li>
@@ -45,7 +45,7 @@ const Navbar = () => {
            </div>
            
            <div className='hidden md:flex  items-center gap-5'>
-           <p className='text-white text-lg'><a href="">Login</a></p>
+           <p className='text-black text-lg'><a href="">Login</a></p>
            <button className='py-5 px-12 text-lg  font-medium bg-[#43E7DF] text-black rounded-[6px]  '>Register</button>
            </div>
         </div>
